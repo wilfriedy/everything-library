@@ -10,8 +10,8 @@ function App() {
 
   useEffect(() => {
     if (refx.current) {
-      const myplug = new CreateAppendContent(refx.current);
-      console.log(myplug);
+      const myplug = new CreateAppendContent("h1");
+      console.log(myplug.element);
     }
   });
 
