@@ -19,4 +19,8 @@ class CreateAppendContent {
   }
 }
 
-window.CreateAppendContent = CreateAppendContent;
+if (window != "undefined") {
+  window.CreateAppendContent = CreateAppendContent;
+}
+
+export { CreateAppendContent };
