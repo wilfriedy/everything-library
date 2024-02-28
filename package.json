@@ -1,6 +1,6 @@
 {
   "name": "everythinglibrary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this is a testing environment. I am just creating this as test.",
   "main": "src/index.js",
   "scripts": {
